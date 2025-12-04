@@ -125,9 +125,11 @@
 }
 
 .end-word {
-  font-size: 12px;
-  height: 17px;
   width: 112px;
-
+  height: 17px;
+  font-size: 12px;
+  line-height: 21px;
+  text-align: left;
+  color: #2B2A27;
   margin: 0 auto 21px auto;
 }
