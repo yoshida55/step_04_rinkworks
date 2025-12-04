@@ -4,6 +4,7 @@
 .wrapper {
   width: 100%; /* 親要素に合わせる */
   max-width: 1280px;
+  font-family: "Noto Sans JP", sans-serif;
 }
 
 /* ===============================================
@@ -32,9 +33,6 @@
   width: 210px;
   height: 49px;
   margin: 0 auto 14px auto;
-  /* border: 1px solid #000000; */
-  font-family: "Noto Sans JP", sans-serif;
-  text-align: left;
 
   letter-spacing: -1px; /* 文字間隔を詰める */
   line-height: 49px; /* 高さに合わせて中央揃え */
@@ -48,8 +46,6 @@
   margin: 0 auto;
   text-align: center;
 
-  /* border: 1px solid #000000; */
-  font-family: "Noto Sans JP", sans-serif;
   letter-spacing: -1px; /* 文字間隔を詰める */
 }
 
@@ -96,8 +92,6 @@
 .see-recipe-link {
   font-size: 14px;
   color: #000000;
-  font-family: "Noto Sans JP", sans-serif;
-  text-align: left;
 }
 
 /* ===============================================
@@ -111,29 +105,23 @@
   margin-bottom: 19px;
 }
 
-.footer-word-instagram {
+.footer-word-instagram,
+.footer-word-twitter,
+.footer-word-facebook {
   font-size: 12px;
-  width: 56px;
   height: 17px;
+}
 
-  font-family: "Noto Sans JP", sans-serif;
-  text-align: left;
+.footer-word-instagram {
+  width: 56px;
 }
 
 .footer-word-twitter {
-  font-size: 12px;
-  font-family: "Noto Sans JP", sans-serif;
-  text-align: left;
   width: 40px;
-  height: 17px;
 }
 
 .footer-word-facebook {
-  font-size: 12px;
-  font-family: "Noto Sans JP", sans-serif;
-  text-align: left;
   width: 54px;
-  height: 17px;
 }
 
 .end-word {
@@ -142,7 +130,4 @@
   width: 112px;
 
   margin: 0 auto 21px auto;
-
-  font-family: "Noto Sans JP", sans-serif;
-  text-align: left;
 }
