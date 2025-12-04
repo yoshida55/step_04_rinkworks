@@ -77,3 +77,72 @@
 /* ===============================================
   レシピ一覧をみる
  =============================================== */
+.see-recipe-all-container {
+  margin-bottom: 122px;
+}
+
+.rectangle-box {
+  width: 248px;
+  height: 53px;
+  margin: 0 auto;
+  background-color: #ffffff;
+  border: 1px solid #000000;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.see-recipe-link {
+  font-size: 14px;
+  color: #000000;
+  font-family: "Noto Sans JP", sans-serif;
+  text-align: left;
+}
+
+/* ===============================================
+  フッターセクション
+ =============================================== */
+
+.three-word-container {
+  display: flex;
+  justify-content: center;
+  gap: 21px;
+  margin-bottom: 19px;
+}
+
+.footer-word-instagram {
+  font-size: 12px;
+  width: 56px;
+  height: 17px;
+
+  font-family: "Noto Sans JP", sans-serif;
+  text-align: left;
+}
+
+.footer-word-twitter {
+  font-size: 12px;
+  font-family: "Noto Sans JP", sans-serif;
+  text-align: left;
+  width: 40px;
+  height: 17px;
+}
+
+.footer-word-facebook {
+  font-size: 12px;
+  font-family: "Noto Sans JP", sans-serif;
+  text-align: left;
+  width: 54px;
+  height: 17px;
+}
+
+.end-word {
+  font-size: 12px;
+  height: 17px;
+  width: 112px;
+
+  margin: 0 auto 21px auto;
+
+  font-family: "Noto Sans JP", sans-serif;
+  text-align: left;
+}
