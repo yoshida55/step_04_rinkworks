@@ -33,7 +33,7 @@
   font-weight: bold;
   width: 200px;
   /* height: 49px; */
-  margin: 0 auto 14px auto;
+  margin: 0 auto 14px;
 
   letter-spacing: -1px; /* 文字間隔を詰める */
 }
