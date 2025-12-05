@@ -1,24 +1,25 @@
 <!DOCTYPE html>
 <html lang="ja">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Recipe</title>
 
-    <!-- Google Fonts を追加 -->
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400;700&display=swap"
-      rel="stylesheet"
-    />
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Recipe</title>
 
-    <link rel="stylesheet" href="css/reset.css" />
-    <link rel="stylesheet" href="css/style.css" />
-    <link rel="stylesheet" href="css/work.css" />
-  </head>
-  <body>
-    <div class="wrapper">
+  <!-- Google Fonts を追加 -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400;700&display=swap" rel="stylesheet" />
+
+  <link rel="stylesheet" href="css/reset.css" />
+  <link rel="stylesheet" href="css/style.css" />
+  <link rel="stylesheet" href="css/work.css" />
+</head>
+
+<body>
+  <div class="wrapper">
+    <!-- ✅✅✅メインタグ追加✅✅✅ -->
+    <main>
       <!-- ===============================================
       メインビジュアル　// プレート（前菜の盛り合わせ）
       =============================================== -->
@@ -34,9 +35,7 @@
         <h1 class="recipe-diary-word">Recipe Diary</h1>
         <p class="recipe-diary-discription">
           日々の料理レシピをまとめています。<br />
-          和食や洋食、中華、お菓子までいろいろな料<br
-            class="sp-br"
-          />理レシピをアップしていますので、<br />
+          和食や洋食、中華、お菓子までいろいろな料<br class="sp-br" />理レシピをアップしていますので、<br />
           みなさんの献立にお役立てくださいね！
         </p>
       </section>
@@ -46,21 +45,9 @@
        =============================================== -->
       <section class="three-plate-all-container">
         <div class="three-plate-container">
-          <img
-            src="img/01_左_茶色スープ.png"
-            alt="茶色のスープ"
-            class="plate-item-img"
-          />
-          <img
-            src="img/02_真ん中_お肉サラダ.png"
-            alt="お肉サラダ"
-            class="plate-item-img"
-          />
-          <img
-            src="img/03_右_サラダ縦型.png"
-            alt="サラダ縦型"
-            class="plate-item-img"
-          />
+          <img src="img/01_左_茶色スープ.png" alt="茶色のスープ" class="plate-item-img" />
+          <img src="img/02_真ん中_お肉サラダ.png" alt="お肉サラダ" class="plate-item-img" />
+          <img src="img/03_右_サラダ縦型.png" alt="サラダ縦型" class="plate-item-img" />
         </div>
       </section>
 
@@ -72,20 +59,32 @@
           <a href="#" class="see-recipe-link">レシピ一覧をみる</a>
         </div>
       </section>
-
-      <!-- ===============================================
+    </main>
+    <!-- ===============================================
        フッターセクション
        =============================================== -->
-      <footer class="footer-all-container">
-        <div class="three-word-container">
-          <p class="footer-word-instagram">Instagram</p>
+    <footer class="footer-all-container">
+      <div class="three-word-container">
+        <!-- ✅✅✅リンクはAタグに変更✅✅✅ -->
+        <!-- <p class="footer-word-instagram">Instagram</p>
           <p class="footer-word-twitter">Twitter</p>
-          <p class="footer-word-facebook">Facebook</p>
-        </div>
-        <div>
-          <p class="end-word">©2021 Recipe Diary</p>
-        </div>
-      </footer>
-    </div>
-  </body>
+          <p class="footer-word-facebook">Facebook</p> -->
+
+        <!-- ✅✅✅テキストはheightを指定しない。widthもとりあえず指定しない
+         　　また共通クラスで定義する✅✅✅ -->  
+        <!-- <a href="#" class="footer-word-twitter">Twitter</a>
+        <a href="#" class="footer-word-facebook">Facebook</a>
+        <a href="#" class="footer-word-instagram">Instagram</a> -->
+        <a href="#" class="footer-sns-link">Twitter</a>
+        <a href="#" class="footer-sns-link">Facebook</a>
+        <a href="#" class="footer-sns-link">Instagram</a>
+
+      </div>
+      <div>
+        <p class="end-word">©2021 Recipe Diary</p>
+      </div>
+    </footer>
+  </div>
+</body>
+
 </html>
