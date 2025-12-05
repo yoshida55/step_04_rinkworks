@@ -32,7 +32,7 @@
   font-size: 34px;
   font-weight: bold;
   width: 200px;
-  height: 49px;
+  /* height: 49px; */
   margin: 0 auto 14px auto;
 
   letter-spacing: -1px; /* 文字間隔を詰める */
@@ -44,7 +44,7 @@
 
 .recipe-diary-discription {
   width: 610px;
-  height: 77px;
+  /* height: 77px; */
   font-size: 17px;
   line-height: 26px;
   margin: 0 auto;
@@ -113,7 +113,7 @@
 .footer-word-twitter,
 .footer-word-facebook {
   font-size: 12px;
-  height: 17px;
+  /* height: 17px; */
 }
 
 .footer-word-instagram {
@@ -130,7 +130,7 @@
 
 .end-word {
   width: 112px;
-  height: 17px;
+  /* height: 17px; */
   font-size: 12px;
   line-height: 21px;
   text-align: left;
@@ -145,15 +145,6 @@
  ==================================================== */
 
 @media screen and (max-width: 375px) {
-  /* ===============================================
-  ★レスポンシブ 共通セクション
- =============================================== */
-
-  .wrapper {
-    width: 100%; /* 親要素に合わせる */
-    font-family: "Noto Sans JP", sans-serif;
-  }
-
   /* ===============================================
   ★レスポンシブ　メインビジュアル　// プレート（前菜の盛り合わせ）
  =============================================== */
@@ -241,11 +232,6 @@
     display: flex;
     justify-content: center;
     align-items: center;
-  }
-
-  .see-recipe-link {
-    font-size: 14px;
-    color: #000000;
   }
 
   /* ===============================================
