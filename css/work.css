@@ -17,6 +17,7 @@
 }
 
 .plate-img {
+  width: 100%;
   height: 640px;
   object-fit: cover;
   display: block; /* 追加：imgのinline要素による余白を消す */
@@ -26,17 +27,14 @@
   Recipe-Diaryのタイトルと説明
  =============================================== */
 .recipe-diary-all-container {
-  margin-bottom: 82px;
+  margin-bottom: 92px;
 }
 
 .recipe-diary-word {
   font-size: 34px;
   font-weight: bold;
   width: 210px;
-  /* height: 49px; */
   margin: 0 auto 14px;
-
-  letter-spacing: -1px;
 }
 
 .sp-br {
@@ -45,13 +43,10 @@
 
 .recipe-diary-discription {
   width: 610px;
-  /* height: 77px; */
   font-size: 17px;
   line-height: 26px;
   margin: 0 auto;
   text-align: center;
-
-  letter-spacing: -1px;
 }
 
 /* ===============================================
@@ -70,7 +65,7 @@
 
 .plate-item-img {
   flex: 1;
-  width: 427px;
+  width: 426px;
   height: 533px;
   object-fit: cover;
 }
@@ -106,43 +101,36 @@
 .three-word-container {
   display: flex;
   justify-content: center;
-  gap: 21px;
+  gap: 22px;
   margin-bottom: 19px;
 }
 
 
-/* ✅✅✅テキストはheightを指定しない。widthもとりあえず指定しない
-また共通クラスで定義する✅✅✅  */
-/* .footer-word-instagram,
-.footer-word-twitter,
-.footer-word-facebook {
+.footer-sns-link-instagram {
   font-size: 12px;
-}
-
-.footer-word-instagram {
   width: 56px;
-}
-
-.footer-word-twitter {
-  width: 40px;
-}
-
-.footer-word-facebook {
-  width: 54px;
-} */
-/* ✅✅✅以下のクラスに集約✅✅✅  */
-.footer-sns-link {
-  font-size: 12px;
   color: #2b2a27;
+  text-decoration: underline;
+  
+}
+.footer-sns-link-twitter {
+  font-size: 12px;
+  width: 40px;
+  color: #2b2a27;
+  text-decoration: underline;
+}
+.footer-sns-link-facebook {
+  font-size: 12px;
+  width: 54px;
+  color: #2b2a27;
+  text-decoration: underline;
 }
 
 
 .end-word {
   width: 112px;
-  /* height: 17px; */
   font-size: 12px;
   line-height: 21px;
-  text-align: left;
   color: #2b2a27;
   margin: 0 auto 21px auto;
 }
@@ -179,11 +167,7 @@
     font-size: 32px;
     font-weight: bold;
     width: 197px;
-    /* height: 46px; */
     margin: 0 auto 14px auto;
-
-    letter-spacing: -1px; /* 文字間隔を詰める */
-    /* line-height: 46px; 高さに合わせて中央揃え */
   }
 
   .pc-br {
@@ -192,19 +176,15 @@
 
   .recipe-diary-discription {
     width: 320px;
-    /* height: 96px; */
     font-size: 16px;
     line-height: 24px;
     margin: 0 auto;
     text-align: center;
-
-    letter-spacing: -1px; /* 文字間隔を詰める */
   }
 
   /* ===============================================
   ★レスポンシブ 3種類の画像セクション
  =============================================== */
-
   .three-plate-all-container {
     margin-bottom: 60px;
   }
@@ -257,10 +237,8 @@
 
   .end-word {
     width: 112px;
-    /* height: 17px; */
     font-size: 12px;
     line-height: 21px;
-    text-align: left;
     color: #2b2a27;
     margin: 0 auto 21px auto;
   }
