@@ -146,6 +146,10 @@
   ★レスポンシブ　メインビジュアル　// プレート（前菜の盛り合わせ）
  =============================================== */
 
+  .plate-main-visual-all-container {
+    margin-bottom: 72px;
+  }
+
   .plate-img {
     height: 600px;
     object-fit: cover;
@@ -156,7 +160,7 @@
  ★レスポンシブ　 Recipe-Diaryのタイトルと説明
  =============================================== */
   .recipe-diary-all-container {
-    margin-bottom: 72px;
+    margin-bottom: 77px;
   }
 
   .recipe-diary-word {
